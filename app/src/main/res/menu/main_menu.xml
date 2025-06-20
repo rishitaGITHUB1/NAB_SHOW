@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--<item
+        android:id="@+id/logout1"
+        android:title="Logout"
+        android:icon="@drawable/logout_image"
+        app:showAsAction="always"/>-->
+
+<group android:id="@+id/socialicon">
+    <item android:id="@+id/socialmedia"
+        android:title="">
+        <menu>
+
+            <item android:title="" />
+
+            <item android:id="@+id/subscribe"
+                android:title="Subscribe"
+                android:icon="@drawable/ic_subscription"/>
+
+            <item android:id="@+id/schedule"
+                android:title="Schedule"
+                android:icon="@drawable/ic_calendar"/>
+
+            <item android:id="@+id/chatRoom"
+                android:title="Chat Room"
+                android:icon="@drawable/ic_chat" />
+
+            <item android:id="@+id/contact"
+                android:title="Contact Us"
+                android:icon="@drawable/ic_contact"/>
+
+            <item android:id="@+id/about"
+                android:title="About Us"
+                android:icon="@drawable/ic_about"/>
+
+            <item android:id="@+id/podcast"
+                android:title="Podcast"
+                android:icon="@drawable/ic_podcast"/>
+
+            <item android:id="@+id/audio_feedback"
+                android:title="Feedback"
+                android:icon="@drawable/ic_audio_feedback"/>
+
+            <item android:id="@+id/fb"
+                android:title="Facebook"
+                android:icon="@drawable/fb1"/>
+
+            <item android:id="@+id/insta"
+                android:title="Instagram"
+                android:icon="@drawable/insta1"/>
+
+            <item android:id="@+id/twitter"
+                android:title="X"
+                android:icon="@drawable/twitter"/>
+
+            <item android:id="@+id/linkedin"
+                android:title="LinkedIn"
+                android:icon="@drawable/linkedin"/>
+
+            <item android:id="@+id/youtube"
+                android:title="YouTube"
+                android:icon="@drawable/youtube1"/>
+
+            <!--<item android:id="@+id/whatsapp"
+                android:title="WhatsApp"
+                android:icon="@drawable/whatsapp"/>-->
+
+            <!--<item android:id="@+id/webpage"
+                android:title="Website"
+                android:icon="@drawable/ic_website"/>-->
+
+
+        </menu>
+    </item>
+</group>
+
+<group android:id="@+id/grcategory"></group>
+
+
+
+
+
+</menu>

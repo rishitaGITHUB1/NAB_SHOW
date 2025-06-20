@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/radio"
+        android:title="Radio"
+        android:icon="@drawable/ic_radio"/>
+
+    <item
+        android:id="@+id/chatRoom"
+        android:title="Chat Room"
+        android:icon="@drawable/ic_chat"/>
+
+    <item
+        android:id="@+id/schedule"
+        android:title="Schedule"
+        android:icon="@drawable/ic_calendar"/>
+
+
+</menu>
